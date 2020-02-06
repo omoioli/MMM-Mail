@@ -47,7 +47,7 @@ module.exports = NodeHelper.create({
     socketNotificationReceived : function(notification, payload){
 		var that = this;
 		if(notification === 'LISTEN_EMAIL'){
-		
+	//	For (Var i=0; i<payload.acount.length) {
 			var login = [	payload.host, 
 							payload.port, 
 							{	
